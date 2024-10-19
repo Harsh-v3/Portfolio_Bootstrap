@@ -1,0 +1,141 @@
+.header {
+  background: #151515 url("../images/intro-bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.header .text-container {
+  z-index: 10;
+}
+.header .social {
+  bottom: 50px;
+}
+.header .roles {
+  font-family: "lora-regular";
+}
+
+.heading-text {
+  position: relative;
+}
+.heading-text::after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 1rem);
+  height: 5px;
+  width: 3rem;
+  background: #cc005f;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+.input {
+  outline: none !important;
+}
+
+.social_icons i {
+  cursor: pointer;
+}
+
+.services {
+  background: #151515 url("../images/header-background.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.services::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.services .container {
+  position: relative;
+  z-index: 10;
+}
+
+.about-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-image: url("../images/instructor.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.skills-heading {
+  border-right: 3px solid #999;
+  padding-right: 8rem;
+}
+
+.project {
+  transition: all 0.3s ease-in-out;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+  .states .stat {
+    margin-bottom: 80px;
+    margin: auto auto;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #f4f4f4;
+    width: 75%;
+    padding-bottom: 20px;
+  }
+  .footer-container {
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer-container .left-side-footer {
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+  }
+  .footer-container .right-side-footer {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 770px) {
+  .header .social i {
+    font-size: 30px;
+  }
+  .header .roles {
+    font-size: 18px !important;
+  }
+  .states .stat {
+    margin: auto auto;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #f4f4f4;
+    width: 75%;
+    padding-bottom: 20px;
+  }
+  .about-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .skills {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .skills-content {
+    justify-content: center;
+  }
+  .skills-heading {
+    border: none;
+  }
+}

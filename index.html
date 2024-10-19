@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio Website | Bootstrap</title>
+    <!-- styling sheets -->
+    <link rel="stylesheet" href="src/css/fontawesome.css" />
+    <link rel="stylesheet" href="src/css/bootstrap.css" />
+    <link rel="stylesheet" href="src/css/lightbox.min.css" />
+    <link rel="stylesheet" href="src/css/main.css" />
+  </head>
+  <body>
+    <!-- Landing Page -->
+    <section class="header vh-100 text-center position-relative">
+      <div
+        class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100"
+      >
+        <h5 class="text-white-50  fs-3 fw-bold text-uppercase">hi ,</h5>
+        <h1 id="typing-text" class="display-1 fw-bold text-white text-uppercase"></h1>
+        <p class="roles text-white text-uppercase fs-4">
+          <span>Frontend Web Developer &nbsp;| &nbsp; </span>
+          <span>Tech Student</span>
+        </p>
+        <a href="#about" class="btn btn-outline-light btn-lg mt-3 rounded-1">
+          <div class="d-flex">
+            <div class="me-3">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="text-start">More About Me</div>
+          </div>
+        </a>
+        <div class="social d-flex gap-3 position-absolute">
+          <a href="https://github.com/Harsh-v3">
+            <i class="fab fa-github fa-2x mx-1 opacity-75 text-light"></i>
+          </a>
+          <a href="https://www.instagram.com/i.m_harsh_saini?igsh=cDZvNXRhNm43aHFh">
+            <i
+              class="fab fa-2x mx-1 opacity-75 fa-instagram-square text-light"
+            ></i>
+          </a>
+          <a href="https://www.linkedin.com/in/harsh-kumar-7b017832a?">
+            <i class="fab fa-2x mx-1 opacity-75 fa-linkedin text-light"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about bg-light py-5 h-100">
+      <div class="container">
+        <div class="text-container text-center">
+          <h3 class="text-primary fw-semibold text-uppercase heading-text ">about me</h3>
+          
+          <h2 class="my-5 fw-light text-dark-emphasis fs-4">Junior Frontend web Developer who's on a personal Journey to build some insane tech!</h2>
+        </div>
+        <div class="about-content row align-items-center pb-5">
+          <div class="col-md-4 about-img"></div>
+          <div class="col-md-8 mx-auto ">
+            <p class="lead">
+              I am a frontend web developer from Kurukshetra , Haryana India. I started writing
+              code about 3 years ago. I started with C , C++ and then moved to web
+              technologies like HTML, CSS, JavaScript and PHP. I have worked for
+              many clients as well as ran my own. In starting of 2024 I started creating
+              content full-time. I love helping people learn to code and better
+              their lives.
+            </p>
+            <div class="about-buttons mt-2 d-flex gap-1 flex-wrap">
+              <button class="btn btn-primary text-light rounded-1">
+                HIRE ME
+              </button>
+              <button class="btn btn-outline-primary rounded-1">
+                Download CV
+              </button>
+              <a href="#projects" class="btn btn-outline-primary rounded-1">
+                <div class="d-flex">
+                  <div class="me-3">
+                    <i class="fas fa-chevron-down"></i>
+                  </div>
+                  <div class="text-start">Portfolio</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="skills row mb-1 align-items-center mt-3 mx-sm-0 mb-5">
+          <div class="col-md-2 text-primary skills-heading px-0">
+            <h1 class="fw-bolder fs-1 text-uppercase pt-2 text-center mb-sm-2">Skills</h3>
+              <hr class="w-50 border-primary d-md-none d-sm-block mx-auto mb-3">
+          </div>
+          <div class="col-md-10 d-flex h-100 gap-2 flex-wrap skills-content pt-sm-2">
+            <span class=" py-2 px-3 fs-6 fw-light m-1 rounded-2 bg-dark-subtle ">HTML</span>
+            <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">CSS</span>
+            <span class=" py-2 px-3 fs-6  fw-light m-1  rounded-2 bg-dark-subtle ">Bootstrap</span>
+            <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">SASS</span>
+            <span class=" py-2 px-3 fs-6  fw-light m-1  rounded-2 bg-dark-subtle ">JavaScript</span>
+            <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">PHP</span>
+            <span class=" py-2 px-3 fs-6  fw-light m-1  rounded-2 bg-dark-subtle ">C</span>
+            <span class=" py-2 px-3 fs-6  fw-light m-1  rounded-2 bg-dark-subtle ">C++</span>
+            <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">Communication</span>
+            <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">Team Management</span>
+            <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+     <section class="portfolio py-5 bg-white" id="projects">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h1 class="text-uppercase fw-semibold heading-text mb-5">Portfolio</h1>
+          <p class="lead mb-6">Dabbled into some Technologies and outputed these
+          </p>
+
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-5 px-4">
+            <div class="project shadow-lg rounded-4">
+              <a href="src/images/project1.jpg" data-lightbox="images" data-title="Ebook Website Overview">
+                <img src="src/images/project1.jpg" alt="" class="img-fluid rounded-3">
+              </a>
+            </div>
+          </div>
+            <div class="col-md-6 d-none d-lg-block text-container text-center d-flex flex-column ">
+              <div class=" fs-2 fw-semibold">Ebook Website</div>
+              <hr class="w-25 mx-auto border-dark">
+              <p class="lead fs-6 text-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit minima repellat facilis hic mollitia porro sunt iure maxime illum, nemo perferendis reiciendis aliquid voluptatem nobis itaque, sint velit repellendus fuga?</p>
+              
+              <div class="d-flex flex-wrap justify-content-center mb-2">
+                <span class=" py-2 px-3 fs-6 fw-light m-1 rounded-2 bg-dark-subtle ">HTML</span>
+                <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">CSS</span>
+                <span class=" py-2 px-3 fs-6  fw-light m-1  rounded-2 bg-dark-subtle ">Bootstrap</span>
+                <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">SASS</span>
+              </div>
+  
+              <div class="projects-buttons align-baseline">
+                <a class="btn btn-outline-primary btn-sm rounded-1">Live Preview</a>
+                <a class="btn btn-primary btn-sm rounded-1">Code</a>
+              </div>
+            </div>
+            <div class="col-md-6 d-none d-lg-block text-container text-center d-flex flex-column ">
+              <div class=" fs-2 fw-semibold">Natours</div>
+              <hr class="w-25 mx-auto border-dark">
+              <p class="lead fs-6 text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo porro neque dolorum expedita, molestias placeat iure eius repudiandae aliquam aperiam magni reiciendis, dicta iusto. Distinctio sit quod aliquid hic vero!</p>
+              
+              <div class="d-flex flex-wrap justify-content-center mb-2">
+                <span class=" py-2 px-3 fs-6 fw-light m-1 rounded-2 bg-dark-subtle ">HTML</span>
+                <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">CSS</span>
+                <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">SASS</span>
+              </div>
+  
+              <div class="projects-buttons align-baseline">
+                <a class="btn btn-outline-primary btn-sm rounded-1">Live Preview</a>
+                <a class="btn btn-primary btn-sm rounded-1">Code</a>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5 px-4">
+              <div class="image-container">
+                <div class="project shadow-lg rounded-4">
+                    <a href="src/images/project3.jpg" data-lightbox="images" data-title="Natours Website Overview">
+                      <img src="src/images/project3.jpg" alt="" class="img-fluid rounded-3">
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-5 px-4">
+              <div class="image-container">
+                <div class="project shadow-lg rounded-4">
+                    <a href="src/images/project4.jpg" data-lightbox="images" data-title="Forkify Website Overview">
+                      <img src="src/images/project4.jpg" alt="" class="img-fluid rounded-1">
+                    </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 d-none d-lg-block text-container text-center d-flex flex-column ">
+              <div class=" fs-2 fw-semibold">Forkify</div>
+              <hr class="w-25 mx-auto border-dark">
+              <p class="lead fs-6 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae temporibus quas magnam soluta tempora !</p>
+              
+              <div class="d-flex flex-wrap justify-content-center mb-2">
+                <span class=" py-2 px-3 fs-6 fw-light m-1 rounded-2 bg-dark-subtle ">HTML</span>
+                <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">CSS</span>
+                <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">SASS</span>
+                <span class="py-2 px-3 fs-6  fw-light m-1 rounded-2  bg-dark-subtle ">JavaScript</span>
+              </div>
+  
+              <div class="projects-buttons align-baseline">
+                <a class="btn btn-outline-primary btn-sm rounded-1">Live Preview</a>
+                <a class="btn btn-primary btn-sm rounded-1">Code</a>
+              </div>
+            </div>
+            
+            <a href="#" class="btn btn-primary btn-outline-dark border-0 text-light rounded-2 mt-4 mx-auto w-auto mb-5">
+              <div class="d-flex align-items-center gap-2 ">
+                <div class="text-light">More Projects</div>
+                <div class="i fas fa-arrow-alt-circle-right"></div>
+              </div>
+            </a>
+        </div>
+      </div>
+     </section>
+
+    <!-- Services -->
+     <section class="services py-4 text-center text-bg-dark" id="services">
+      <div class="services__text container">
+        <div class="fs-3 heading-text text-uppercase text-primary fw-semibold">
+          services
+        </div>
+        <div class="fs-2 fw-lighter mt-5">What Can I Do For You ?</div>
+        <p class="lead fs-5 mb-2">Here are some of the services that I offer when it comes to web development and business.
+        </p>
+        <div class="services__details row ">
+          <div class="col-md-4 d-flex flex-column mb-3 mt-4 ">
+              <i class="fas fa-code fa-3x text-primary mb-3"></i>
+              <div class="text-semibold fs-4 text-light">
+                Web Development
+              </div>
+              <hr class="w-50 mx-auto border-3 border-light">
+              <p class="lead fs-6 text-wrap">Lorem ipsum dolor amet consectetur adipisicing elit. Enim os a omnis hic an perspiciatis as orcasta are distinctio excepturi aliquam num is the adipisc.</p>
+              <ul class="list-group-flush list-group text-start list-unstyled bg-dark vstack gap-2 bg-transparent">
+                <li class="list-group-item border-0 bg-transparent text-white rounded-1">
+                  <i class="fas fa-check me-3"></i>  Responsive Design
+                </li>
+                <li class="list-group-item bg-light border-0 bg-transparent text-white rounded-1">
+                  <i class="fas fa-check me-3"></i>  Full Functional
+                </li>
+                <li class="list-group-item bg-light border-0 bg-transparent text-white rounded-1">
+                  <i class="fas fa-check me-3"></i>  Backend Integrated
+                </li>
+                <li class="list-group-item bg-light border-0 bg-transparent text-white rounded-1">
+                  <i class="fas fa-check me-3"></i> 1 Year Regular Modifications 
+                </li>
+              </ul>
+              <a href="#" class="btn btn-light btn-outline-white rounded-2 ">
+                Contact
+              </a>
+          </div>  
+          <div class="col-md-4 d-flex flex-column mb-3 mt-4 ">
+            <i class="fas fa-pen fa-3x text-primary mb-3"></i>
+            <div class="text-semibold fs-4 text-light">
+              Content Writing
+            </div>
+            <hr class="w-50 mx-auto border-3 border-light">
+            <p class="lead fs-6 text-wrap">Lorem ipsum dolor amet consectetur adipisicing elit. Enim os a omnis hic an perspiciatis as orcasta are distinctio excepturi aliquam num is the adipisc.</p>
+            <ul class="list-group-flush list-group text-start list-unstyled bg-dark vstack gap-2 bg-transparent">
+              <li class="list-group-item border-0 bg-transparent text-white rounded-1">
+                <i class="fas fa-check me-3"></i>  Human Content
+              </li>
+              <li class="list-group-item bg-light border-0 bg-transparent text-white rounded-1">
+                <i class="fas fa-check me-3"></i>  Unique
+              </li>
+              <li class="list-group-item bg-light border-0 bg-transparent text-white rounded-1">
+                <i class="fas fa-check me-3"></i>  3 Year Expirence
+              </li>
+              <li class="list-group-item bg-light border-0 bg-transparent text-white rounded-1">
+                <i class="fas fa-check me-3"></i> Any Niche 
+              </li>
+            </ul>
+            <a href="#" class="btn btn-light btn-outline-white rounded-2 ">
+              Contact
+            </a>
+        </div> 
+         <div class="col-md-4 d-flex flex-column mb-3 mt-4 ">
+          <i class="fas fa-scissors fa-3x text-primary mb-3"></i>
+          <div class="text-semibold fs-4 text-light">
+            Editing
+          </div>
+          <hr class="w-50 mx-auto border-3 border-light">
+          <p class="lead fs-6 text-wrap">Lorem ipsum dolor amet consectetur adipisicing elit. Enim os a omnis hic an perspiciatis as orcasta are distinctio excepturi aliquam num is the adipisc.</p>
+          <ul class="list-group-flush list-group text-start list-unstyled bg-dark vstack gap-2 bg-transparent">
+            <li class="list-group-item border-0 bg-transparent text-white rounded-1">
+              <i class="fas fa-check me-3"></i>  Upto 60 min. video
+            </li>
+            <li class="list-group-item bg-light border-0 bg-transparent text-white rounded-1">
+              <i class="fas fa-check me-3"></i>  Ultra HD Quality
+            </li>
+            <li class="list-group-item bg-light border-0 bg-transparent text-white rounded-1">
+              <i class="fas fa-check me-3"></i>  Free SEO 
+            </li>
+            <li class="list-group-item bg-light border-0 bg-transparent text-white rounded-1">
+              <i class="fas fa-check me-3"></i> Low Prices
+            </li>
+          </ul>
+          <a href="#" class="btn btn-light btn-outline-white rounded-2">
+            Contact
+          </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="states py-5 text-bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="stat text-center ">
+              <i class="fas text-secondary fa-users fa-2x mb-3"></i>
+              <p class="fs-3">12 +</p>
+              <h3 class="fs-5 text-uppercase fw-bolder">Happy Clients</h3>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="stat text-center">
+              <i class="fas text-secondary fa-project-diagram fa-2x mb-3"></i>
+              <p class="fs-3">6 +</p>
+              <h3 class="fs-5 text-uppercase fw-bolder">Big Projects</h3>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="stat text-center ">
+              <i class="fas text-secondary fa-clock fa-2x mb-3"></i>
+              <p class="fs-3">8 +</p>
+              <h3 class="fs-5 text-uppercase fw-bolder">Months Experience</h3>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="stat text-center ">
+              <i class="fas text-secondary fa-user-plus fa-2x mb-3"></i>
+              <p class="fs-3">2 +</p>
+              <h3 class="fs-5 text-uppercase fw-bolder">Team Members</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+     <section class="contact bg-light py-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 px-lg-8 px-md-5 text-center">
+            <div class="text-container">
+              <div class=" text-uppercase text-primary fs-3 heading-text fw-bold">
+                contact
+              </div>
+              <p class="lead fs-5 mt-5">
+                Want to get in touch with me ? Need any help on any Project you're working on ? <span class="fw-semibold">Would love to hear from you !</span>
+              </p>
+            </div>
+            <div class="form-container mt-6">
+              <form action="#">
+                <input type="text" class="input text-capitalize w-100 fs-5 ps-3 pb-2 text-primary bg-light border-bottom border-3 border-0 border-primary rounded-0 mb-5" placeholder="Name" >
+                <input type="email" class="input w-100 fs-5 ps-3 pb-2 text-primary bg-light border-bottom border-3 border-0 border-primary rounded-0 mb-5" placeholder="Email Address" >
+                <input type="text" class="input w-100 fs-5 ps-3 pb-2 text-primary bg-light border-bottom border-3 border-0 border-primary rounded-0 mb-5" placeholder="Message" >
+                
+                <input type="submit" value="Contact" class="btn btn-primary rounded-2 w-100" >
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    
+    <!-- footer -->
+    <footer class="footer py-5 text-bg-dark px-5 w-100" id="footer">
+        <div class="d-flex footer-container align-items-center justify-content-between">
+          <div class="left-side-footer ">
+            <h2 class="text-uppercase fw-bold fs-3 text-white">
+              Harsh Kumar
+            </h2>
+            <p class="lead fw-lighter fs-6">
+              Thanks for peaking interest in my work! <span class="fw-medium text-primary">I'd love to connect !</span> <br> Send me a message above and let's get something workin!
+            </p>
+          </div>
+          <div class="right-side-footer">
+            <h2 class="text-uppercase fw-bold fs-4 text-white mb-3">
+              Social
+            </h2>
+            <div class="social_icons d-flex gap-3">
+              <a href="https://github.com/Harsh-v3" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/harsh-kumar-7b017832a?" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+              <a href="whatsapp:contact=9518816505@s.whatsapp.com&message='I would like to chat with you'" target="_blank">
+                <i class="fab fa-whatsapp fa-2x"></i>
+              </a>
+              <a href="https://www.instagram.com/i.m_harsh_saini?igsh=cDZvNXRhNm43aHFh" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+        </div>
+     
+    </footer>
+
+    <script src="src/Js/bootstrap.bundle.min.js"></script>
+    <script src="src/Js/lightbox-plus-jquery.min.js"></script>
+    <script src="src/Js/script.js"></script>
+  </body>
+</html>
