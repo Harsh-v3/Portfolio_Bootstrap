@@ -44,6 +44,9 @@
 .social_icons i {
   cursor: pointer;
 }
+.social_icons i:hover {
+  color: white !important;
+}
 
 .services {
   background: #151515 url("../images/header-background.jpg") no-repeat center center;
@@ -70,9 +73,9 @@
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  background-image: url("../images/instructor.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url("../images/instructor_.png");
+  background-size: contain;
+  background-position: 100%;
 }
 
 .skills-heading {
