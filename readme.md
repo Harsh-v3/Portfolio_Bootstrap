@@ -4,7 +4,7 @@ This portfolio website was created to showcase my web development skills and pro
 
 ## Demo
 
-<img src="src/imgaes/portfolio_Bootstrap.png" />
+<img src="src/images/portfolio_Bootstrap.png" />
 
 ## Features
 
